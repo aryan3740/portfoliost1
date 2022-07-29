@@ -1,0 +1,126 @@
+    @import 'utility.css';
+body{
+    background-color: rgb(242, 242, 245);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+@keyframes updown {
+    from {transform: :scale(0,0);}
+    to {transform: rotate(1.1,1.1);}
+  }
+header{
+
+    background-image: url(graywall.jpg);
+    height: auto;
+}
+header nav .left a{
+    color: white;
+    text-decoration: none;
+    margin-right: 2rem;
+}
+header nav .left a:hover{
+    color: rgb(0, 10, 35);
+}
+header nav{
+    padding: 2rem 0;
+}
+.container{
+    max-width: 1152px;
+    padding:0 15px;
+    margin:0 auto;
+}
+.hero .right{
+    color: rgb(255, 255, 255);
+}
+.hero .right h6{
+    font-size:3.0rem;
+    color: rgb(9, 5, 59);
+    margin-bottom: 1rem;
+    margin-left: 3rem;
+}
+.hero .right h6:hover{
+    color: white;
+    transform:scale(1.2,1.2);
+    transition: transform 2s;
+}
+.hero .right h1{
+    font-size:4rem;
+   font-weight: 100;
+   margin-bottom: 2rem;
+   margin-left: 2rem;
+   
+    margin-bottom: rem;
+}
+.hero .right h1 span{
+    color:rgb(0, 10, 35);
+}
+.hero .left {
+    height: 250px;
+    border-radius: 125px;
+    margin-bottom: 50px;
+    
+
+}
+section{
+    padding: 6rem 10rem;
+}
+section.about h1{
+    color: black;
+   margin-bottom: 2rem;
+   font-size: 2rem;
+   font-weight: 400;
+   margin-left: 4rem;
+   
+}
+section.about h1 span{
+    color: rgb(0, 10, 35);
+
+    
+}
+section.about h3{
+    color: black;
+    font-weight: 200;
+    margin-left: 4rem;
+    margin-bottom: 2rem;
+}
+section.about p{
+    color: black;
+    margin-left: 4rem;
+   margin-bottom: 6rem;
+}
+section.about .image3{
+    margin-left: 2rem;
+    
+}
+section.freelancer{
+    text-align: center;
+    color: rgb(255, 255, 255);
+   
+    
+}
+section.freelancer h1{
+    margin-bottom: 5rem;
+    font-size: 2.8rem;
+}
+section.freelancer h2{
+    margin-top: 2rem;
+}
+
+.profilepic{
+    border-radius: 50%;
+    border-width: 10px;
+    border-color:rgb(9, 5, 59) ;
+}
+.profilepic:hover{
+    transform:scale(1.2,1.2);
+    transition: transform 2s;
+}
+.firstimg{
+    animation-name: updown;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
